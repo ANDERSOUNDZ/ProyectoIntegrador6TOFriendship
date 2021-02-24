@@ -37,6 +37,26 @@ canvas {
     transition: all 1s;
 }
 
+.container .pantallados{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background: url(../storage/GAME_OVER.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition: all 1s;
+}
+
+.container .pantallados.active{
+    top: 100%;
+
+}
+
 .container .pantalla.active{
     top: 100%;
 

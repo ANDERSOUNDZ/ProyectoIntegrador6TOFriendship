@@ -12,9 +12,11 @@
 <body>
     <div class="container">
         <div class="pantalla">
-            <div class="cont">
-                <h1>Bienvenido a <br> Friendship!</h1>
-                <button onclick="iniciaGame()"><i class="material-icons" style="font-size:100px;">play_circle_outline</i></button>
+            <div class="pantallados">
+                <div class="cont">
+                    <h1>Bienvenido a <br> Friendship!</h1>
+                    <button onclick="iniciaGame()"><i class="material-icons" style="font-size:100px;">play_circle_outline</i></button>
+                </div>
             </div>
         </div>
         <div class="puntos">0</div>

@@ -245,6 +245,7 @@ function gameOver(){
     SoundExplosion.play();
     game.stop();
     document.querySelector(".pantalla").classList.remove("active");
+
     //Cambio de nombre pantalla
     document.querySelector(".pantalla h1").innerHTML = "Intentalo de nuevo!";
     //Tiempo que tarda en resetear el canvas
